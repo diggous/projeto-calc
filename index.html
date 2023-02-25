@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label for="n1">Digite um número: </label>
+                <input type="number" name="n1" id="n1">
+            </p>
+            <p>
+                Selecione o operador: 
+                <select name="oper" id="oper">
+                    <option value="somar">+</option>
+                    <option value="subtrair">-</option>
+                    <option value="multiplicar">x</option>
+                    <option value="dividir">/</option>
+                </select>
+            </p>
+            <p>
+                <label for="n2">Digite outro número: </label>
+                <input type="number" name="n2" id="n2">
+            </p>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+        <div id="res">
+            Resultado
+        </div>
+    </section>
+    <footer>
+        <p>Desenvolvido por &copy; <em><a href="https://www.github.com/diggous">Diggous</a></em></p>
+    </footer>
+    <script src="calc.js"></script>
+</body>
+</html>

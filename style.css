@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, black, rgb(53, 53, 249)) no-repeat;
+    overflow: hidden;
+    color: white;
+    font: normal 1em Arial;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background-color: rgb(43, 125, 226);
+    text-align: justify;
+    margin: auto;
+    width: 80vw;
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: yellow;
+}
